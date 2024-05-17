@@ -1,0 +1,140 @@
+:root {
+    --blanco: #fff;
+    --oscuro: #000;
+    --principal: #2167fd;
+    --fondo: #222222;
+}
+
+/* Globales */
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+
+*,
+*:before *:after {
+    box-sizing: inherit;
+}
+
+body {
+    font-size: 16px;
+    font-family: sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    align-items: center;
+}
+
+nav .logo {
+    font-size: 4rem;
+    font-weight: 700;
+    color: var(--principal);
+    margin-left: 1rem;
+}
+
+nav .menu {
+    font-size: 3rem;
+    color: var(--principal);
+    cursor: pointer;
+    display: none;
+    margin-right: .5rem;
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    margin-left: 2rem;
+}
+
+nav ul li svg {
+    display: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: var(--oscuro);
+    padding: 1rem;
+}
+
+nav ul li a.activo {
+    background-color: var(--principal);
+    border-radius: .7rem;
+    color: var(--blanco);
+}
+
+nav ul li a:hover {
+    background-color: #1f3a72;
+    border-radius: .7rem;
+    color: var(--blanco);
+}
+
+#sobremi{
+    background-color: aquamarine;
+}
+#skills{
+    background-color: firebrick;
+}
+#proyectos{
+    background-color: #1f3a72;
+}
+@media (max-width: 768px) {
+    nav {
+        background-color: var(--fondo);
+        top: 0;
+        position: sticky;
+    }
+
+    nav .menu {
+        display: block;
+        transition: 0.5s;
+    }
+
+    nav ul {
+        background-color: var(--fondo);
+        position: fixed;
+        top: 8rem;
+        right: 1rem;
+        width: 23rem;
+        border-radius: .7rem;
+        z-index: 99999999999 !important;
+        display: block;
+        transition: opacity 0.5s ease, transform 0.5s ease;
+        transform: translateY(0);
+    }
+
+    nav ul.cerrar {
+        opacity: 0;
+        transform: translateY(-2rem);
+    }
+
+    nav ul.dp-none {
+        display: none;
+    }
+
+    nav ul li {
+        margin: 1rem 0.8rem;
+    }
+
+    nav ul li svg {
+        display: block;
+        margin-right: 0.7rem;
+    }
+
+    nav ul li a {
+        display: flex;
+        font-weight: 500;
+        font-size: 1.6rem;
+        color: var(--blanco);
+        align-items: center;
+    }
+
+
+}
