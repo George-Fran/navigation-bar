@@ -4,7 +4,7 @@ Bar</a></h1>
 
 
 <a target="_blank" align="center">
-  <img align="right" top="500" height="300" width="400" alt="GIF" src="https://raw.githubusercontent.com/TanZng/TanZng/master/assets/hollor_knight3.gif">
+  <img align="right" top="500" height="300" width="400" alt="GIF" src="https://geogz-navigation-bar.netlify.app/img/navigation.png">
 </a>
 
 - 🔭 Hi, I created a navigation bar
