@@ -13,5 +13,3 @@ Bar</a></h1>
 
 - ☁️ Just clone this repository
 <br/>
-
-------
