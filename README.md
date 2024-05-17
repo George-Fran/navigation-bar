@@ -1,4 +1,4 @@
-<h1 align="center">Simple Navigation <a href="https://100rabhcsmc.github.io/Me.io/" target="blank">
+<h1 align="center">Simple Navigation <a href="https://geogz-navigation-bar.netlify.app/" target="blank">
 Bar</a></h1>
 <h3 align="center">A simple and beautiful navigation bar </h3>
 
